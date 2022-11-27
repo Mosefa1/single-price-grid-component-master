@@ -1,0 +1,90 @@
+body{
+    background-color: grey;
+    }
+    
+    .container{
+        margin-top: 20px;
+        width: 600px;
+        padding: 0px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    
+    .col-sm-6{
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    /*------------------heading 1----------*/
+    .text1{
+        background: white;
+        padding: 25px;
+    }
+    .text1 .heading{
+        color:rgb(23, 164, 164);
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .days{
+        color:rgb(242, 226, 77);
+        font-weight: 500;
+    }
+    .article{
+        color: rgb(206, 200, 200);
+    }
+/*--------------row 1--------------------*/
+    .text2{
+        background: rgb(60, 148, 143);
+        color: white;
+        padding: 35px;
+    }
+    .subscription{
+        color: white;
+        font-weight: 500;
+    }
+    .dollar{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .month{
+        padding-left: 10px;
+        font-size: 16px;
+        color:rgb(188, 241, 241);
+    }
+    button{
+        background:rgb(205, 191, 69);
+        color: white;
+        padding: 10px;
+        width: 230px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 25px;
+    }
+    button:hover{
+        background: black;
+        transition-delay: 0.1s;
+        animation: reverse;
+    }
+    /*-----------------row 2-----------*/
+    .reasons{
+        background: rgb(96, 195, 212);
+        color: white;
+        padding: 25px;
+        height: 280px;
+    }
+    .why{
+        font-weight: 500;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .t1{
+        line-height: 0.8;
+        padding-left: 10px;
+    }
+    @media (max-width: 750px){
+        .container{
+            max-width: 350px ;
+            margin: 25px 25px 25px 25px;
+        }
+    }
+    
